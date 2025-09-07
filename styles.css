@@ -1,0 +1,34 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+section {
+  margin: 20px 0;
+}
+
+/* Dark mode */
+.dark {
+  background: #121212;
+  color: #ffffff;
+}
+
+/* Error messages */
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+/* FAQ styling */
+.faq-answer {
+  display: none;
+  margin-top: 5px;
+  font-style: italic;
+  color: #555;
+}
