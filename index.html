@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lebo Interactive Web Page</title> 
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Interactive Web Page 🚀</h1>
+
+  <!-- Part 1: Event Handling Example -->
+  <button id="greetBtn">Click Me</button>
+  <p id="greetMessage"></p>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>Light/Dark Mode Toggle</h2>
+    <button id="toggleTheme">Toggle Theme</button>
+  </section>
+
+  <section>
+    <h2>Counter Game</h2>
+    <button id="increaseBtn">Increase</button>
+    <button id="resetBtn">Reset</button>
+    <p id="counter">0</p>
+  </section>
+
+  <section>
+    <h2>FAQ Section</h2>
+    <button class="faq-toggle">What is JavaScript?</button>
+    <p class="faq-answer">JavaScript makes websites interactive!</p>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <h2>Sign Up Form</h2>
+  <form id="signupForm">
+    <label>
+      Name: <input type="text" id="name">
+      <span class="error" id="nameError"></span>
+    </label><br><br>
+
+    <label>
+      Email: <input type="text" id="email">
+      <span class="error" id="emailError"></span>
+    </label><br><br>
+
+    <label>
+      Password: <input type="password" id="password">
+      <span class="error" id="passwordError"></span>
+    </label><br><br>
+
+    <button type="submit">Submit</button>
+    <p id="formSuccess"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
